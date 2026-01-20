@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Shashank kulkarni">
+    <meta name="description" content="This is the home page.">
+    <title>AutomobileCompany</title>
+</head>
+
+<body>
+    <header>
+        <h1><em>A &nbsp; AUTOMOBILE &nbsp; COMPANY</em></h1>
+        <hr>
+        💠<a href="Cars.html">Information on car</a>
+        <br>
+        💠<a href="Bikes.html">Information on bikes</a>
+        <br>
+        <nav aria-label="Primary-navigation">
+            💠<a href="#Survey">Survey</a>
+        </nav>
+        <hr>
+    </header>
+
+    <main>
+        <h2>What is a Machine?</h2>
+        <p>A machine is a device designed to make work easier by transforming energy into useful motion or action. From
+            simple tools like levers and pulleys to complex systems such as computers and engines, machines play a vital
+            role in daily life. They increase efficiency, accuracy, and speed, allowing humans to accomplish tasks that
+            would otherwise require great effort or time. Modern machines often combine mechanical, electrical, and
+            digital components, enabling automation and intelligent decision-making. As technology advances, machines
+            continue to reshape industries, improve living standards, and influence how people work, communicate, and
+            solve problems in an increasingly connected world.</p>
+        <details>
+            <summary>Guess what was the first machine to be ever built....</summary>
+            <p>It was the <mark>FLINT HAND EXE</mark> used by early humans in 5th millennium BCE.</p>
+        </details>
+        <hr>
+        <h2>Example images of a Machine....</h2>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <figure>
+            <img src="img/Big_machine.jpg" alt="A big Machine" title="This is one of the example for a machine"
+                width="612" height="407">
+        </figure>
+        <br>
+        <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <figure>
+            <img src="img/engine.jpg" alt="A Engine" title="This is a picture of a Engine">
+        </figure>
+        <br>
+        <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <figure>
+            <img src="img/Sewing.png" alt="A Sewing Machine" title="This a sewing machine" width="612" height="407">
+        </figure>
+        <br>
+        <hr>
+
+        <section id="Survey">
+            <h3>Please attempt the survey:</h3>
+            <article>
+                <form action="https://httpbin.org/get" method="get">
+                    <fieldset>
+                        <legend>Personal Info</legend>
+                        <p>
+                            <label for="FirstName">First Name:</label>
+                            <input type="text" name="FirstName" id="FirstName" placeholder="Sharat" autocomplete="on"
+                                required>
+                        </p>
+                        <p>
+                            <label for="LastName">Last Name:</label>
+                            <input type="text" name="LastName" id="LastName" placeholder="Kulkarni" autocomplete="on"
+                                required>
+                        </p>
+                        <p>
+                            <label for="password">Password:</label>
+                            <input type="password" name="password" id="password" placeholder="Pass" required>
+
+                        </p>
+                        <p>
+                            <label for="phone">Phone no:</label>
+                            <input type="tel" name="phone" id="phone" placeholder="5555555555"
+                                pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required>
+                        </p>
+                    </fieldset>
+                <fieldset>
+                    <legend>What is your favorite vehicle?</legend>
+                    <p>
+                        <input type="radio" name="vehicle" id="Car" value="Car">
+                        <label for="Car">Car</label>
+                    </p>
+                    <p>
+                        <input type="radio" name="vehicle" id="Bike" value="Bike">
+                        <label for="Bike">Bike</label>
+                    </p>
+                    <p>
+                        <input type="radio" name="vehicle" id="others" value="others">
+                        <label for="others">Others</label>
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <legend>Send me a note</legend>
+                    <label for="message">Your Message:</label>
+                    <textarea name="message" id="message" placeholder="Type your message here" rows="5"
+                        cols="40"></textarea>
+                </fieldset>
+                <br>
+                <button type="submit">Submit</button>
+                <button type="submit" formaction="https://httpbin.org/post" formmethod="post">Post</button>
+                <button type="reset">Reset</button>
+                <hr>
+                </form>
+            </article>
+        </section>
+
+        <footer>
+            <p>
+                &lt;&lt;&lt;<a href="About_me.html">About me</a>&gt;&gt;&gt;
+            </p>
+        </footer>
+
+
+    </main>
+
+</body>
+
+</html>
